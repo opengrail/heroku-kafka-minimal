@@ -30,7 +30,7 @@ $ heroku kafka:create messages
 Set an environment variable referencing the new topic:
 
 ```
-$ heroku config:set KAFKA_TOPIC=messages
+$ heroku config:set TOPIC=messages
 ```
 
 Deploy to Heroku and open the app:
